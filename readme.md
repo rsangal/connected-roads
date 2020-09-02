@@ -6,7 +6,7 @@ Two points are considered connected if there’s a series of roads that can be t
 Demo list of roads is available in a project file `cities.txt` located in the `resource` directory. 
 File contains a list of city pairs (one pair per line, comma separated), which indicates that there’s a road between those cities.
 
-== IMPORTANT: Lombok
+# IMPORTANT: Lombok
 
 To avoid having to write and maintain what is mostly boilerplate Java code, I've elected to use https://projectlombok.org/[Lombok] in the project. When building from the command line, using Maven, you shouldn't encounter any problems, as Lombok is included as part of the build process. But you will very likely encounter issues if you import these projects into your IDE.
 
